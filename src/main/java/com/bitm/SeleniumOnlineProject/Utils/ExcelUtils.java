@@ -61,16 +61,33 @@ public class ExcelUtils {
 				break;
 			case 1:
 				login.setPassword(formatter.formatCellValue(cell));
+				cellCounter++;
 				break;
-				
+			case 2:
+				login.setUsername(formatter.formatCellValue(cell));
+				cellCounter++;
+				break;
+			case 3:
+				login.setPassword(formatter.formatCellValue(cell));
+				break;
+		
 			}
 		}
 		logindata.add(login);
 		
 	}
+	close();
 	return logindata;
 	}
 	
 	
+	
+	private static void close() throws IOException {
+		
+		workbook.close();
+		inputStream.close();
+	}
+
+		
 		
 }

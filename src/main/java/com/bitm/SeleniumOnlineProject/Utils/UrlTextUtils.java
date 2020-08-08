@@ -7,6 +7,7 @@ public class UrlTextUtils {
 	}
 
 	public static class TEXT {
+		
 		public static final String HomePageTitle = "OrangeHRM";
 	}
 }
