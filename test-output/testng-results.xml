@@ -2,18 +2,18 @@
 <testng-results skipped="1" failed="1" ignored="0" total="2" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="NewToursSiteTestingSuite" duration-ms="8329" started-at="2020-08-08T20:59:36 BDT" finished-at="2020-08-08T20:59:45 BDT">
+  <suite name="NewToursSiteTestingSuite" duration-ms="9441" started-at="2020-08-15T20:16:11 BDT" finished-at="2020-08-15T20:16:21 BDT">
     <groups>
     </groups>
-    <test name="NewTourSiteTest" duration-ms="8329" started-at="2020-08-08T20:59:36 BDT" finished-at="2020-08-08T20:59:45 BDT">
+    <test name="NewTourSiteTest" duration-ms="9441" started-at="2020-08-15T20:16:11 BDT" finished-at="2020-08-15T20:16:21 BDT">
       <class name="com.bitm.SeleniumOnlineProject.Test.LoginTest">
-        <test-method status="FAIL" signature="checkLoginPageTitle()[pri:0, instance:com.bitm.SeleniumOnlineProject.Test.LoginTest@6c49835d]" name="checkLoginPageTitle" duration-ms="8245" started-at="2020-08-08T20:59:36 BDT" finished-at="2020-08-08T20:59:45 BDT">
+        <test-method status="FAIL" signature="checkLoginPageTitle()[pri:0, instance:com.bitm.SeleniumOnlineProject.Test.LoginTest@6c9f5c0d]" name="checkLoginPageTitle" duration-ms="8778" started-at="2020-08-15T20:16:11 BDT" finished-at="2020-08-15T20:16:20 BDT">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[expected [OrangeHRMMM] but found [OrangeHRM]]]>
+              <![CDATA[expected [OrangeHRMM] but found [OrangeHRM]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [OrangeHRMMM] but found [OrangeHRM]
+              <![CDATA[java.lang.AssertionError: expected [OrangeHRMM] but found [OrangeHRM]
 at org.testng.Assert.fail(Assert.java:97)
 at org.testng.Assert.assertEqualsImpl(Assert.java:136)
 at org.testng.Assert.assertEquals(Assert.java:118)
@@ -32,7 +32,7 @@ at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java
 at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at org.testng.TestRunner$$Lambda$53/2056418216.accept(Unknown Source)
+at org.testng.TestRunner$$Lambda$53/1489092624.accept(Unknown Source)
 at java.util.ArrayList.forEach(ArrayList.java:1249)
 at org.testng.TestRunner.privateRun(TestRunner.java:767)
 at org.testng.TestRunner.run(TestRunner.java:588)
@@ -55,17 +55,17 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkLoginPageTitle -->
-        <test-method status="SKIP" signature="logintest(java.util.List)[pri:0, instance:com.bitm.SeleniumOnlineProject.Test.LoginTest@6c49835d]" name="logintest" duration-ms="0" started-at="2020-08-08T20:59:45 BDT" data-provider="loginData" depends-on-methods="com.bitm.SeleniumOnlineProject.Test.LoginTest.checkLoginPageTitle" finished-at="2020-08-08T20:59:45 BDT">
+        <test-method status="SKIP" signature="logintest(java.util.List)[pri:0, instance:com.bitm.SeleniumOnlineProject.Test.LoginTest@6c9f5c0d]" name="logintest" duration-ms="0" started-at="2020-08-15T20:16:21 BDT" data-provider="loginData" depends-on-methods="com.bitm.SeleniumOnlineProject.Test.LoginTest.checkLoginPageTitle" finished-at="2020-08-15T20:16:21 BDT">
           <exception class="java.lang.Throwable">
             <message>
-              <![CDATA[Method LoginTest.logintest(java.util.List)[pri:0, instance:com.bitm.SeleniumOnlineProject.Test.LoginTest@6c49835d] depends on not successfully finished methods]]>
+              <![CDATA[Method LoginTest.logintest(java.util.List)[pri:0, instance:com.bitm.SeleniumOnlineProject.Test.LoginTest@6c9f5c0d] depends on not successfully finished methods]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method LoginTest.logintest(java.util.List)[pri:0, instance:com.bitm.SeleniumOnlineProject.Test.LoginTest@6c49835d] depends on not successfully finished methods
+              <![CDATA[java.lang.Throwable: Method LoginTest.logintest(java.util.List)[pri:0, instance:com.bitm.SeleniumOnlineProject.Test.LoginTest@6c9f5c0d] depends on not successfully finished methods
 at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at org.testng.TestRunner$$Lambda$53/2056418216.accept(Unknown Source)
+at org.testng.TestRunner$$Lambda$53/1489092624.accept(Unknown Source)
 at java.util.ArrayList.forEach(ArrayList.java:1249)
 at org.testng.TestRunner.privateRun(TestRunner.java:767)
 at org.testng.TestRunner.run(TestRunner.java:588)
